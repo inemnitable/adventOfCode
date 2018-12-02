@@ -17,7 +17,7 @@ fn main() {
       println!("{}", the_total);
       break;
     } else {
-      seen.insert(*&the_total);
+      seen.insert(the_total);
     }
     if pos < the_deltas.len() - 1 {
       pos += 1;
